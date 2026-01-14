@@ -1,0 +1,1501 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Social Media Users' inline='true' name='federated.0hlbjof119dz3t0zr7j7d0jfaj25' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Social Media Users' name='textscan.1ua9k3201suxu015k83wn1dmrzk5'>
+            <connection class='textscan' directory='C:/Users/hp/Downloads' filename='Social Media Users.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1ua9k3201suxu015k83wn1dmrzk5' name='Social Media Users.csv' table='[Social Media Users#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Platform' ordinal='0' />
+            <column datatype='string' name='Owner' ordinal='1' />
+            <column datatype='string' name='Primary Usage' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='real' name='Daily Time Spent (min)' ordinal='4' />
+            <column datatype='string' name='Verified Account' ordinal='5' />
+            <column datatype='date' name='Date Joined' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Social Media Users.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Platform</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Platform]</local-name>
+            <parent-name>[Social Media Users.csv]</parent-name>
+            <remote-alias>Platform</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Owner]</local-name>
+            <parent-name>[Social Media Users.csv]</parent-name>
+            <remote-alias>Owner</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Usage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Primary Usage]</local-name>
+            <parent-name>[Social Media Users.csv]</parent-name>
+            <remote-alias>Primary Usage</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Social Media Users.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily Time Spent (min)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Daily Time Spent (min)]</local-name>
+            <parent-name>[Social Media Users.csv]</parent-name>
+            <remote-alias>Daily Time Spent (min)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Verified Account</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Verified Account]</local-name>
+            <parent-name>[Social Media Users.csv]</parent-name>
+            <remote-alias>Verified Account</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Joined</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date Joined]</local-name>
+            <parent-name>[Social Media Users.csv]</parent-name>
+            <remote-alias>Date Joined</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='total users' datatype='integer' name='[Calculation_138767191242514433]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Platform])' />
+      </column>
+      <column caption='Average Daily Time Spent' datatype='real' name='[Calculation_138767191244025858]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Daily Time Spent (min)])' />
+      </column>
+      <column caption='Total Verified Users' datatype='integer' name='[Calculation_138767191244267523]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;IF [Verified Account]=&quot;yes&quot; THEN 1 ELSE 0 END)' />
+      </column>
+      <column caption='Total Non-Verified Users' datatype='integer' name='[Calculation_138767191244681220]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;IF [Verified Account]=&quot;No&quot; THEN 1 ELSE 0 END)' />
+      </column>
+      <column caption='Average Account Age (Years)' datatype='integer' name='[Calculation_138767191247151109]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEDIFF(&quot;year&quot;,[Date Joined],TODAY())' />
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+      <column caption='Social Media Users.csv' datatype='table' name='[__tableau_internal_object_id__].[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]' role='measure' type='quantitative' />
+      <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/hp/AppData/Local/Temp/TableauTemp/#TableauTemp_1gaqx3c0xdjlo4195pkok0kwrb0k.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/05/2025 05:33:03 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Platform</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Platform]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Platform</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Social Media Users.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Owner</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Owner]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Owner</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Social Media Users.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Primary Usage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Primary Usage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Primary Usage</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Social Media Users.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Social Media Users.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>280</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Daily Time Spent (min)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Daily Time Spent (min)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Daily Time Spent (min)</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Social Media Users.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5189</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Verified Account</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Verified Account]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Verified Account</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Social Media Users.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date Joined</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date Joined]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date Joined</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Social Media Users.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>2767</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Social Media Users.csv_04B47BC01685492BB7ABADC325333A55]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Platform:nk]' type='palette'>
+            <map to='#2c5985'>
+              <bucket>&quot;Pinterest&quot;</bucket>
+            </map>
+            <map to='#2f6790'>
+              <bucket>&quot;Threads&quot;</bucket>
+            </map>
+            <map to='#32779b'>
+              <bucket>&quot;Quora&quot;</bucket>
+            </map>
+            <map to='#32779b'>
+              <bucket>&quot;X (formerly Twitter)&quot;</bucket>
+            </map>
+            <map to='#347ea1'>
+              <bucket>&quot;WhatsApp&quot;</bucket>
+            </map>
+            <map to='#358ead'>
+              <bucket>&quot;LinkedIn&quot;</bucket>
+            </map>
+            <map to='#419eb6'>
+              <bucket>&quot;Reddit&quot;</bucket>
+            </map>
+            <map to='#66b3c2'>
+              <bucket>&quot;Snapchat&quot;</bucket>
+            </map>
+            <map to='#72bac6'>
+              <bucket>&quot;TikTok&quot;</bucket>
+            </map>
+            <map to='#7ec1ca'>
+              <bucket>&quot;WeChat&quot;</bucket>
+            </map>
+            <map to='#95cecf'>
+              <bucket>&quot;Instagram&quot;</bucket>
+            </map>
+            <map to='#aedcd5'>
+              <bucket>&quot;Facebook&quot;</bucket>
+            </map>
+            <map to='#aedcd5'>
+              <bucket>&quot;YouTube&quot;</bucket>
+            </map>
+            <map to='#bce4d8'>
+              <bucket>&quot;Telegram&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Social Media Users.csv' id='Social Media Users.csv_04B47BC01685492BB7ABADC325333A55'>
+            <properties context=''>
+              <relation connection='textscan.1ua9k3201suxu015k83wn1dmrzk5' name='Social Media Users.csv' table='[Social Media Users#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Platform' ordinal='0' />
+                  <column datatype='string' name='Owner' ordinal='1' />
+                  <column datatype='string' name='Primary Usage' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='real' name='Daily Time Spent (min)' ordinal='4' />
+                  <column datatype='string' name='Verified Account' ordinal='5' />
+                  <column datatype='date' name='Date Joined' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_245A9E6D373D436DA194352D4D1100FF]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Average Daily Time Spend by Platforms' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Daily Time Spend by Platforms'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='11'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Users' name='federated.0hlbjof119dz3t0zr7j7d0jfaj25' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlbjof119dz3t0zr7j7d0jfaj25'>
+            <column datatype='real' name='[Daily Time Spent (min)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Daily Time Spent (min)]' derivation='Sum' name='[sum:Daily Time Spent (min):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Daily Time Spent (min):qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-width' value='0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#410061' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#86bcb6' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Daily Time Spent (min):qk]</rows>
+        <cols>[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]</cols>
+      </table>
+      <simple-id uuid='{3DB672FE-9DBB-4FFE-909E-A13C6CA8F850}' />
+    </worksheet>
+    <worksheet name='Daily Time Spent by Owner'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='11'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Users' name='federated.0hlbjof119dz3t0zr7j7d0jfaj25' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlbjof119dz3t0zr7j7d0jfaj25'>
+            <column datatype='real' name='[Daily Time Spent (min)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Owner]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column-instance column='[Daily Time Spent (min)]' derivation='Avg' name='[avg:Daily Time Spent (min):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Owner]' derivation='None' name='[none:Owner:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#410061' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[avg:Daily Time Spent (min):qk]</rows>
+        <cols>[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Owner:nk]</cols>
+      </table>
+      <simple-id uuid='{5B2BD78C-8346-463B-8C71-561B664CF861}' />
+    </worksheet>
+    <worksheet name='Distribution of users by primary usage'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='11'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Users' name='federated.0hlbjof119dz3t0zr7j7d0jfaj25' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlbjof119dz3t0zr7j7d0jfaj25'>
+            <column datatype='real' name='[Daily Time Spent (min)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Daily Time Spent (min)]' derivation='Sum' name='[sum:Daily Time Spent (min):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='313' />
+            <format attr='width' value='501' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='background-color' value='#e9ebe0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-width' value='1' />
+            <format attr='border-style' value='solid' />
+            <format attr='background-color' value='#410061' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]' />
+              <wedge-size column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Daily Time Spent (min):qk]' />
+              <text column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.4392818212509155' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{62B3F233-BEE0-4257-B006-025261CCF042}' />
+    </worksheet>
+    <worksheet name='Platforms Categorized by Primary Usage'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='11'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Users' name='federated.0hlbjof119dz3t0zr7j7d0jfaj25' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0hlbjof119dz3t0zr7j7d0jfaj25'>
+            <column datatype='real' name='[Daily Time Spent (min)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Primary Usage]' role='dimension' type='nominal' />
+            <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Primary Usage]' derivation='None' name='[none:Primary Usage:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Daily Time Spent (min)]' derivation='Sum' name='[sum:Daily Time Spent (min):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='471' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#410061' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Daily Time Spent (min):qk]' />
+              <color column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Daily Time Spent (min):qk]' />
+              <text column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Primary Usage:nk]' />
+              <text column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{01704A9D-8079-45D3-A2DF-7FD34017BE51}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Users' name='federated.0hlbjof119dz3t0zr7j7d0jfaj25' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlbjof119dz3t0zr7j7d0jfaj25'>
+            <column caption='total users' datatype='integer' name='[Calculation_138767191242514433]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Platform])' />
+            </column>
+            <column caption='Average Daily Time Spent' datatype='real' name='[Calculation_138767191244025858]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Daily Time Spent (min)])' />
+            </column>
+            <column caption='Total Non-Verified Users' datatype='integer' name='[Calculation_138767191244681220]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(&#13;&#10;IF [Verified Account]=&quot;No&quot; THEN 1 ELSE 0 END)' />
+            </column>
+            <column caption='Average Account Age (Years)' datatype='integer' name='[Calculation_138767191247151109]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&quot;year&quot;,[Date Joined],TODAY())' />
+            </column>
+            <column datatype='real' name='[Daily Time Spent (min)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date Joined]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Verified Account]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_138767191247151109]' derivation='Sum' name='[sum:Calculation_138767191247151109:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_138767191242514433]' derivation='User' name='[usr:Calculation_138767191242514433:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_138767191244025858]' derivation='User' name='[usr:Calculation_138767191244025858:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_138767191244681220]' derivation='User' name='[usr:Calculation_138767191244681220:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[usr:Calculation_138767191244025858:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[usr:Calculation_138767191244681220:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[usr:Calculation_138767191242514433:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Calculation_138767191247151109:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[usr:Calculation_138767191244025858:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[usr:Calculation_138767191244681220:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[usr:Calculation_138767191242514433:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Calculation_138767191247151109:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[:Measure Names]' value='Tableau Semibold' />
+            <format attr='color' field='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[:Measure Names]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='15' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-family' value='Tahoma' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-size' value='9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{B39AFCFC-E3DF-4A68-8395-EA53E7FE188A}' />
+    </worksheet>
+    <worksheet name='Time Spent Trend based on date joined'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='11'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Users' name='federated.0hlbjof119dz3t0zr7j7d0jfaj25' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlbjof119dz3t0zr7j7d0jfaj25'>
+            <column datatype='real' name='[Daily Time Spent (min)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date Joined]' role='dimension' type='ordinal' />
+            <column-instance column='[Daily Time Spent (min)]' derivation='Avg' name='[avg:Daily Time Spent (min):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Daily Time Spent (min)]' derivation='Sum' name='[cum:sum:Daily Time Spent (min):qk]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Sum' ordering-type='Rows' type='CumTotal' />
+            </column-instance>
+            <column-instance column='[Date Joined]' derivation='Year' name='[yr:Date Joined:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' data-class='subtotal' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#410061' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[cum:sum:Daily Time Spent (min):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#86bcb6' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[avg:Daily Time Spent (min):qk]</rows>
+        <cols>[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[yr:Date Joined:ok]</cols>
+      </table>
+      <simple-id uuid='{814414D2-6A90-461E-AEB0-AD0C9F37FFFD}' />
+    </worksheet>
+    <worksheet name='kpi'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Times New Roman' fontsize='11'>Average Daily time spend</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Users' name='federated.0hlbjof119dz3t0zr7j7d0jfaj25' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlbjof119dz3t0zr7j7d0jfaj25'>
+            <column datatype='real' name='[Daily Time Spent (min)]' role='measure' type='quantitative' />
+            <column-instance column='[Daily Time Spent (min)]' derivation='Avg' name='[avg:Daily Time Spent (min):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='271' />
+            <format attr='height' value='48' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='16' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-style' value='normal' />
+            <format attr='font-family' value='Tahoma' />
+            <format attr='color' value='#5bd2ca' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[avg:Daily Time Spent (min):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6794C0FD-457B-4F8B-9F21-704A17BCED75}' />
+    </worksheet>
+    <worksheet name='verified account'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Users' name='federated.0hlbjof119dz3t0zr7j7d0jfaj25' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlbjof119dz3t0zr7j7d0jfaj25'>
+            <column datatype='string' name='[Verified Account]' role='dimension' type='nominal' />
+            <column-instance column='[Verified Account]' derivation='Count' name='[cnt:Verified Account:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='237' />
+            <format attr='height' value='59' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#5bd2ca' />
+            <format attr='font-family' value='Tahoma' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[cnt:Verified Account:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CD0640FC-5F21-4CCB-9AF6-BB9FE0CC942F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman'>SOCIAL MEDIA TIME SPEND USERS ANALYSIS DASHBOARD</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#1b7882' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='color' value='#c0c0c0' />
+          <format attr='background-color' value='#c0c0c0' />
+          <format attr='border-width' value='0' />
+          <format attr='border-style' value='none' />
+        </style-rule>
+      </style>
+      <size maxheight='860' maxwidth='1450' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97858' id='11' param='vert' type-v2='layout-flow' w='98896' x='552' y='1071'>
+            <zone h='6426' id='12' type-v2='title' w='98896' x='552' y='1071'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91432' id='9' type-v2='layout-basic' w='98896' x='552' y='7497' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='41767' id='3' name='Average Daily Time Spend by Platforms' w='30897' x='414' y='8166' />
+        <zone h='46720' id='4' name='Distribution of users by primary usage' w='34621' x='345' y='51406' />
+        <zone h='42169' id='5' name='Time Spent Trend based on date joined' w='31448' x='31862' y='7898' />
+        <zone h='46586' id='6' name='Daily Time Spent by Owner' w='43379' x='35862' y='51539' />
+        <zone h='41767' id='13' name='Platforms Categorized by Primary Usage' w='33310' x='64000' y='7631' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman'>SOCIAL MEDIA TIME SPEND USERS ANALYSIS DASHBOARD</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97858' id='18' param='vert' type-v2='layout-flow' w='98896' x='552' y='1071'>
+                <zone h='6426' id='12' type-v2='title' w='98896' x='552' y='1071'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41767' id='13' is-fixed='true' name='Platforms Categorized by Primary Usage' w='33310' x='64000' y='7631'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42169' id='5' is-fixed='true' name='Time Spent Trend based on date joined' w='31448' x='31862' y='7898'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41767' id='3' is-fixed='true' name='Average Daily Time Spend by Platforms' w='30897' x='414' y='8166'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46720' id='4' is-fixed='true' name='Distribution of users by primary usage' w='34621' x='345' y='51406'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46586' id='6' is-fixed='true' name='Daily Time Spent by Owner' w='43379' x='35862' y='51539'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7F401F8A-DBF5-45AD-BA60-314DDECB1C3A}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style>
+        <style-rule element='dash-title'>
+          <format attr='background-color' value='#410061' />
+        </style-rule>
+        <style-rule element='dash-subtitle'>
+          <format attr='background-color' value='#410061' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone forceUpdate='true' h='90483' id='3' is-centered='0' is-scaled='1' param='C:/Users/hp/Downloads/Picture1.jpg' type-v2='bitmap' w='74875' x='3117' y='2949' />
+        <zone h='27078' id='4' name='Average Daily Time Spend by Platforms' w='20761' x='3180' y='65416' />
+        <zone h='37936' id='5' name='Distribution of users by primary usage' w='26309' x='25748' y='26408' />
+        <zone h='13673' id='6' name='Distribution of users by primary usage' pane-specification-id='0' param='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]' type-v2='color' w='9788' x='68142' y='10992' />
+        <zone h='26944' id='7' name='Time Spent Trend based on date joined' w='53429' x='24501' y='65684' />
+        <zone h='37802' id='8' name='Daily Time Spent by Owner' w='25249' x='52681' y='26408' />
+        <zone h='38070' id='9' name='Platforms Categorized by Primary Usage' w='21883' x='3117' y='26408' />
+        <zone h='13539' id='10' name='Platforms Categorized by Primary Usage' pane-specification-id='0' param='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Daily Time Spent (min):qk]' type-v2='color' w='6733' x='60661' y='11528' />
+        <zone h='6702' id='11' type-v2='text' w='74564' x='3180' y='3217'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='12'>SOCIAL MEDIA USER BEHAVIOUR ANALYSIS DASHBOARD</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#410061' />
+          </zone-style>
+        </zone>
+        <zone h='14209' id='16' name='Sheet 8' show-title='false' w='56858' x='3242' y='10992' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1850' minheight='1850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97856' id='14' param='vert' type-v2='layout-flow' w='99002' x='499' y='1072'>
+                <zone fixed-size='280' forceUpdate='true' h='90483' id='3' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/hp/Downloads/Picture1.jpg' type-v2='bitmap' w='74875' x='3117' y='2949'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6702' id='11' type-v2='text' w='74564' x='3180' y='3217'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='12'>SOCIAL MEDIA USER BEHAVIOUR ANALYSIS DASHBOARD</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#410061' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38070' id='9' is-fixed='true' name='Platforms Categorized by Primary Usage' w='21883' x='3117' y='26408'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13539' id='10' name='Platforms Categorized by Primary Usage' pane-specification-id='0' param='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Daily Time Spent (min):qk]' type-v2='color' w='6733' x='60661' y='11528'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37936' id='5' is-fixed='true' name='Distribution of users by primary usage' w='26309' x='25748' y='26408'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13673' id='6' name='Distribution of users by primary usage' pane-specification-id='0' param='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]' type-v2='color' w='9788' x='68142' y='10992'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37802' id='8' is-fixed='true' name='Daily Time Spent by Owner' w='25249' x='52681' y='26408'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='217' h='27078' id='4' is-fixed='true' name='Average Daily Time Spend by Platforms' w='20761' x='3180' y='65416'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='216' h='26944' id='7' is-fixed='true' name='Time Spent Trend based on date joined' w='53429' x='24501' y='65684'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7C3AC5BF-886A-490F-9B98-FCB6BD89F33F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' name='Average Daily Time Spend by Platforms'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C35729EF-77A6-47E9-87D0-CF0E7F42C1EE}' />
+    </window>
+    <window class='worksheet' name='Distribution of users by primary usage'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9EB74837-7160-4176-A648-EF6542ED4AEC}' />
+    </window>
+    <window class='worksheet' name='Time Spent Trend based on date joined'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5E5B4D39-2A18-4A1F-BD5A-FC7C9BE51AE1}' />
+    </window>
+    <window class='worksheet' name='Daily Time Spent by Owner'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[none:Platform:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1F81D343-9700-45C7-81DD-EFD5AAD09B05}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Average Daily Time Spend by Platforms'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Daily Time Spent by Owner'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Distribution of users by primary usage' />
+        <viewpoint name='Platforms Categorized by Primary Usage' />
+        <viewpoint name='Time Spent Trend based on date joined'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{D0D81F60-7872-435D-9EE3-680F9AD9D0AD}' />
+    </window>
+    <window class='worksheet' name='Platforms Categorized by Primary Usage'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0hlbjof119dz3t0zr7j7d0jfaj25].[sum:Daily Time Spent (min):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{20C4D37F-4983-45F7-8490-8698E53D4037}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Average Daily Time Spend by Platforms'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Daily Time Spent by Owner'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Distribution of users by primary usage'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Platforms Categorized by Primary Usage'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 8'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Time Spent Trend based on date joined'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='16' />
+      <simple-id uuid='{72163080-0EBB-45C7-882C-2DAC16A8EE4B}' />
+    </window>
+    <window class='worksheet' name='kpi'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B70D61D2-378B-4806-B559-A40F62B03584}' />
+    </window>
+    <window class='worksheet' name='verified account'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{42B1875C-D28B-4653-AFF8-BFEDFED58C35}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{E43AE796-88E8-4A8E-BDF8-03A0EE077426}' />
+    </window>
+  </windows>
+</workbook>
